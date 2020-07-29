@@ -13,7 +13,7 @@ function hotelClick()
       PLAYER_DATA["hp"] = PLAYER_DATA["maxhp"] ;
       PLAYER_HP_GAUGE.style.width = '100%';
 
-      PLAYER_DATA['gold'] -= PLAYER_DATA['lv'] * 10
+      PLAYER_DATA['gold'] -= PLAYER_DATA['lv'] * 3
 
       alertText('HPが全回復しました。')
       playerStatus();
